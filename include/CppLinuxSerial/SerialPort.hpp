@@ -113,7 +113,7 @@ namespace mn {
             SerialPort(const std::string &device, BaudRate baudRate, NumDataBits numDataBits, Parity parity, NumStopBits numStopBits);
 
             /// \brief      Constructor that sets up serial port and allows the user to specify all the common parameters and flow control.
-            SerialPort(const std::string &device, BaudRate baudRate, NumDataBits numDataBits, Parity parity, 
+            SerialPort(const std::string &device, BaudRate baudRate, NumDataBits numDataBits, Parity parity,
                 NumStopBits numStopBits, HardwareFlowControl hardwareFlowControl, SoftwareFlowControl softwareFlowControl);
 
             /// \brief      Constructor that sets up serial port with the basic parameters, and a custom baud rate.
